@@ -1,0 +1,226 @@
+body {
+	background-color: GhostWhite;
+  margin: 0px 10px 0px 10px;
+}
+
+/*Header*/
+
+header {
+	height: 175px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: black;
+	font-family: "Playfair Display", serif;
+	font-size: 75px;
+    letter-spacing: .4em;
+	
+}
+
+.playTracker {
+  clear: right;
+/*  position: relative;
+  left: 350px;*/
+  font-family: "Raleway", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 5px 20px 10px 20px;
+  /*margin-top: 10px;
+  margin-bottom: 30px;*/
+  margin: auto;
+  margin-top: 10px;
+  margin-right: 314px;
+  width: 412px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(175, 190, 184, .4);
+  
+}
+
+/*CSS for the Players
+*/
+
+h2 {
+	text-size: 80px;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 0px;
+
+}
+
+/*Section that actually says "Player One"*/
+#player_1 {
+	/*width: 50%;*/
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 0px;
+	height: 50px;
+	text-align: left;
+}
+
+/*Section that says X*/
+#playerOne {
+	font-size: 70px;
+	font-family: "Comfortaa", cursive;
+	color: rgb(226, 200, 235);
+	float: left;
+	margin: 0px;
+}
+
+/*Section that actually says "Player Two"*/
+#player_2 {
+	float: right;
+	margin-right: 50px;
+	height: 50px;
+	text-align: right;
+}
+
+/*Section that says "O"*/
+#playerTwo {
+	font-size: 70px;
+	font-family: "Comfortaa", cursive;
+	color: rgb(175, 190, 184);
+	float: right;
+	margin: 0px;
+}
+
+
+
+
+
+/*Board*/
+
+.board {
+	clear:left;
+	height: 412px;
+	width: 412px;
+	font-family: "Comfortaa", cursive;
+	color: black;
+	margin: auto;
+	margin-top: 40px;
+  	margin-bottom: 0px;
+ 	/*position: relative;
+  	left: 20px;*/
+}
+
+
+.box {
+	background-color: GhostWhite;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+/*Div Ids by locations*/
+#topl {
+	border-right: 2px solid black; 
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+
+}
+
+#topm {
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right:2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#topr {
+	border-left: 2px solid black;
+	border-bottom:2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#midl {
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#midm {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#midr {
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#bottoml {
+	border-top: 2px solid black;
+	border-right:2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+
+}
+
+#bottomm {
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+#bottomr {
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	text-align: center;
+	font-size: 70px;
+	padding: 8.5px 6.25px 4px 6.25px;
+}
+
+
+/*Reset button*/
+.wrapper {
+	text-align: center;
+}
+button {
+	position: relative;
+	left: 400px;
+	right: 100px;
+	bottom: 5px;
+	margin: 0px 5px 40px 0px;
+	height: 40px;
+	width: 180px;
+	background-color: black;
+	font-family: "Raleway", sans-serif;
+	font-size: 12px;
+	color: white;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+
+footer {
+	font-family: "Comfortaa", cursive;
+	color: black;
+	border-top: 1px solid black;
+	height: 30px;
+	padding-left: 15px;
+	padding-top: 15px;
+}
